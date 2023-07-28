@@ -1,5 +1,5 @@
-import {AiOutlineUser, AiOutlineShoppingCart} from "react-icons/Ai";
-import {FaHamburger} from "react-icons/Fa";
+import {AiOutlineUser, AiOutlineShoppingCart} from "react-icons/ai";
+import {FaHamburger} from "react-icons/fa";
 
 function Header() {
   return (
