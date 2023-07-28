@@ -25,7 +25,7 @@ function Popular() {
         return (
           <div
             className="flex flex-col justify-between card border-2 rounded-lg  p-2 mx-auto"
-            key={recipe.['id']}
+            key={recipe['id']}
           >
             <img
               className="aspect-video object-cover rounded-md mb-4"
