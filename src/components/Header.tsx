@@ -4,6 +4,7 @@ import Navlinks from "./Navlinks";
 
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import { FaHamburger } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
 
 function Header() {
 const [open, setOpen] = useState(false);
@@ -26,10 +27,16 @@ const [open, setOpen] = useState(false);
         
           
         {open && <Navlinks />}
+        
+        <button className="absolute top-[6vh] right-[6vh] lg:hidden text-neutral-800 text-4xl z-10" 
+        onClick={()=>{
+          setOpen(!open)
+          console.log(open)
+        }}><RxCross1 /></button>
       </div>
       <ul className="hidden lg:flex gap-8 text-neutral-500">
         <li>
-          <a href="" className="hover:text-neutral-800">
+          <a href="" className="hover:text-neutral-800 z-30">
             <AiOutlineShoppingCart />
           </a>
         </li>

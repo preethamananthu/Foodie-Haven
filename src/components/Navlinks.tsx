@@ -15,7 +15,9 @@ function Navlinks() {
             gap-20 text-neutral-800 relative
             lg:flex-row lg:font-normal lg:h-full lg:text-neutral-500 lg:text-2xl
         ">
-<button className="absolute top-[6vh] right-[6vh] lg:hidden text-neutral-800 text-4xl z-10" 
+
+
+        <button className="absolute top-[6vh] right-[6vh] lg:hidden text-neutral-800 text-4xl z-10" 
         onClick={()=>{
           setOpen(!open)
           console.log(open)
