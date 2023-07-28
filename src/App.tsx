@@ -5,7 +5,7 @@ import Popular from "./components/Popular.tsx";
 
 function App() {
   return (
-    <div className="h-screen bg-cover bg-no-repeat bg-[url('')] scrollbar-track-{blue}">
+    <div className="h-screen bg-cover bg-no-repeat bg-[url('')]">
       <Header />
       <Hero />
       <Popular />

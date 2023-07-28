@@ -5,7 +5,7 @@ function Popular() {
 
   async function getData() {
     const response = await fetch(
-      `https://api.spoonacular.com/recipes/random?number=6&apiKey=c8c4a5a8779b4c4ca7407b2cc855ea89`
+      `https://api.spoonacular.com/recipes/random?number=6&apiKey=41f9de2760944fbca94bb728f43656fe`
     );
     const data = await response.json();
 
