@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./components/header.tsx";
-import Hero from "./components/hero.tsx";
+import Header from "./components/Header.tsx";
+import Hero from "./components/Hero.tsx";
 
 
 function App() {
