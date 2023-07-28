@@ -9,6 +9,8 @@ export default {
       screens: { 'sm': { 'max': '768px' } },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 

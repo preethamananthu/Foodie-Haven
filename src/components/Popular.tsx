@@ -25,16 +25,16 @@ function Popular() {
         return (
           <div
             className="flex flex-col justify-between card border-2 rounded-lg  p-2 mx-auto"
-            key={recipe.id}
+            key={recipe.['id']}
           >
             <img
-              className="aspect-video object-cover rounded-md mb-2"
-              src={recipe.image}
+              className="aspect-video object-cover rounded-md mb-4"
+              src={recipe['image']}
               alt=""
             />
             <div className="flex justify-between mb-2">
-              <h1 className="text-xl font-semibold w-64 truncate ...">{recipe.title}</h1>
-              <h1 className="text-xl font-semibold">$4</h1>
+              <h1 className="text-xl font-semibold w-64 truncate ...">{recipe['title']}</h1>
+              <h1 className="text-xl font-semibold mb-2">$4</h1>
             </div>
             <button className="py-2 px-4 bg-violet-500 hover:bg-violet-700 w-full rounded-md text-white font-semibold text-xl">
               Add to Cart
