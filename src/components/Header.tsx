@@ -10,7 +10,7 @@ function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="container mx-auto py-4 sm:px-12 md:px-24 flex justify-between text-2xl items-center border-b-2">
+    <div className="container mx-auto py-4 sm:px-12 md:px-24 flex justify-between text-2xl items-center border-b-2 sticky top-0">
       <h1 className="text-2xl lg:text-4xl font-bold">Foodie Haven</h1>
       <nav className="hidden lg:block">
         <Navlinks />
